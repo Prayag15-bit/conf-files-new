@@ -6,26 +6,26 @@ $TTL	1D
 							2W		; expiry
 							1W )		; minimum  
 		IN	NS	bastion.rkale.com.
-api.ocp4	IN 	A	10.74.234.157
-api.ocp4.rkale.com	IN 	A	10.74.234.157
-api		IN 	A	10.74.234.157
-api-int.ocp4	IN 	A	10.74.234.157
-api-int		IN 	A	10.74.234.157
-bastion.ocp4	IN 	A	10.74.234.157
-bastion		IN 	A	10.74.234.157
-*.apps		IN 	A	10.74.234.157
-*.apps.ocp4		IN 	A	10.74.234.157
-master01.ocp4	IN 	A	10.74.234.122
-master01	IN 	A	10.74.234.122
-master02.ocp4	IN 	A	10.74.234.124
-master02	IN 	A	10.74.234.124
-master03.ocp4	IN 	A	10.74.234.128
-master03	IN 	A	10.74.234.128
-worker01.ocp4	IN 	A	10.74.235.216
-worker01	IN 	A	10.74.235.216
-worker02.ocp4	IN 	A	10.74.234.127
-worker02	IN 	A	10.74.234.127
-bootstrap.ocp4	IN 	A	10.74.234.125
-bootstrap	IN 	A	10.74.234.125
+api.ocp4	IN 	A	10.74.237.213
+api.ocp4.rkale.com	IN 	A	10.74.237.213
+api		IN 	A	10.74.237.213
+api-int.ocp4	IN 	A	10.74.237.213
+api-int		IN 	A	10.74.237.213
+bastion.ocp4	IN 	A	10.74.237.213
+bastion		IN 	A	10.74.237.213
+*.apps		IN 	A	10.74.237.213
+*.apps.ocp4		IN 	A	10.74.237.213
+master01.ocp4	IN 	A	10.74.237.84
+master01	IN 	A	10.74.237.84
+master02.ocp4	IN 	A	10.74.237.214
+master02	IN 	A	10.74.237.214
+master03.ocp4	IN 	A	10.74.233.190
+master03	IN 	A	10.74.233.190
+worker01.ocp4	IN 	A	10.74.233.192
+worker01	IN 	A	10.74.233.192
+worker02.ocp4	IN 	A	10.74.237.118
+worker02	IN 	A	10.74.237.118
+bootstrap.ocp4	IN 	A	10.74.237.133
+bootstrap	IN 	A	10.74.237.133
 
 
