@@ -1,0 +1,31 @@
+$TTL	1D
+@		IN	SOA	bastion.rkale.com.	root.bastion.rkale.com. (
+							2019020900	; serial
+							3H		; refresh
+							30M		; retry
+							2W		; expiry
+							1W )		; minimum  
+		IN	NS	bastion.rkale.com.
+api.ocp4	IN 	A	10.74.234.157
+api.ocp4.rkale.com	IN 	A	10.74.234.157
+api		IN 	A	10.74.234.157
+api-int.ocp4	IN 	A	10.74.234.157
+api-int		IN 	A	10.74.234.157
+bastion.ocp4	IN 	A	10.74.234.157
+bastion		IN 	A	10.74.234.157
+*.apps		IN 	A	10.74.234.157
+*.apps.ocp4		IN 	A	10.74.234.157
+master01.ocp4	IN 	A	10.74.234.122
+master01	IN 	A	10.74.234.122
+master02.ocp4	IN 	A	10.74.234.124
+master02	IN 	A	10.74.234.124
+master03.ocp4	IN 	A	10.74.234.128
+master03	IN 	A	10.74.234.128
+worker01.ocp4	IN 	A	10.74.235.216
+worker01	IN 	A	10.74.235.216
+worker02.ocp4	IN 	A	10.74.234.127
+worker02	IN 	A	10.74.234.127
+bootstrap.ocp4	IN 	A	10.74.234.125
+bootstrap	IN 	A	10.74.234.125
+
+
